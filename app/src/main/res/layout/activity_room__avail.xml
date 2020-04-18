@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room Available"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="#00BCD4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="30sp"
+        android:background="#C997E8DE"
+        android:text="AC Rooms"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="30sp"
+        android:background="#24DA2C"
+        android:text="1A"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="30sp"
+        android:background="#24DA2C"
+        android:text="1B"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="30sp"
+        android:background="#24DA2C"
+        android:text="1C"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:background="#C997E8DE"
+        android:text="Non - AC Rooms"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="30sp"
+        android:background="#24DA2C"
+        android:layout_marginTop="10dp"
+        android:text="2A"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="30sp"
+        android:background="#24DA2C"
+        android:layout_marginTop="10dp"
+        android:text="2B"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:background="#24DA2C"
+        android:text="2C"
+        />
+</LinearLayout>
